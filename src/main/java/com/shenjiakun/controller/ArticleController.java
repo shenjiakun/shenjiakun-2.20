@@ -20,6 +20,7 @@ public class ArticleController {
 	@Autowired
 	ArticleService articleService;
 
+	//Rest8989
 	@RequestMapping
 	public String list(Model model,Condition con,@RequestParam(defaultValue="1")int sortt,@RequestParam(defaultValue="1")int pageNum){
 		
