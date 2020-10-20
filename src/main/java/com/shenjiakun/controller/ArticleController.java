@@ -20,8 +20,12 @@ public class ArticleController {
 	@Autowired
 	ArticleService articleService;
 
+<<<<<<< HEAD
 
 	//mapping22
+=======
+	//Rest8989
+>>>>>>> 093d3231dd1267d302cb63e5e17a2821e66582ef
 	@RequestMapping
 	public String list(Model model,Condition con,@RequestParam(defaultValue="1")int sortt,@RequestParam(defaultValue="1")int pageNum){
 		
