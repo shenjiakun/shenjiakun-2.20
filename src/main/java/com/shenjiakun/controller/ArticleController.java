@@ -16,7 +16,7 @@ import com.wangpanlong.service.ArticleService;
 
 @Controller
 public class ArticleController {
-
+	//注入
 	@Autowired
 	ArticleService articleService;
 
